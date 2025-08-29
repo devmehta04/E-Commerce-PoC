@@ -12,7 +12,7 @@ export default function Layout({ cartCount, children }) {
 			</aside>
 			<main>
 				<header className="container space-between" style={{ borderBottom: '1px solid #000' }}>
-					<strong>Minimal E‑commerce PoC</strong>
+					<strong>E-Commerce Store</strong>
 					<Link to="/cart">Cart ({cartCount})</Link>
 				</header>
 				<div>{children}</div>
